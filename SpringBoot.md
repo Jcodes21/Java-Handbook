@@ -30,3 +30,8 @@ package YOUR-PKG-NAME;
 
 
 THEN go to http://localhost:8080
+
+
+### Git
+In intelij click the VCS option from the top menu and select create git repo
+now you can commit+push
