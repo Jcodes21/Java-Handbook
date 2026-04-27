@@ -1,0 +1,18 @@
+You need Java to run the application, and the compiler to compile the code.
+
+In the terminal:
+$ java --version
+openjdk 19.0.2 2023-01-17
+OpenJDK Runtime Environment (build 19.0.2+7-44)
+OpenJDK 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
+
+$ javac --version
+javac 19.0.2
+
+The java shell.
+
+$ jshell
+|  Welcome to JShell -- Version 19.0.2
+|  For an introduction type: /help intro
+
+jshell>
