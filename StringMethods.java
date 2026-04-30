@@ -1,3 +1,5 @@
+//https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+
 public class phrase {
     public static void main(String a[]){
         String phrase = "Play with me";
