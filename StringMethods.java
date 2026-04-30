@@ -3,7 +3,34 @@ public class StringMethods {
     public static void main(String a[]){
         char blocks[]={'a','l','!'};
         String Str = new String(blocks);
+        String phrase = "I'm a str1ng. Play with me";//https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+public class Strings {
+    public static void main(String a[]){
+        char blocks[]={'a','l','!'};
+        String Str = new String(blocks);
         String phrase = "I'm a str1ng. Play with me";
+        String wSpace = "  ";
+
+        System.out.println(phrase + "!");
+        System.out.println(phrase.length());
+
+        System.out.println(phrase.charAt(9));
+        System.out.println(phrase.charAt(9) + 1); // Output is 50
+        System.out.println(phrase.charAt(10) + 1); // Output is 111
+       // System.out.println(phrase.indexOf());
+       //  System.out.println(phrase.lastIndexOf());
+        // System.out.println(phrase.replace());
+        System.out.print(Str);
+        System.out.println(Str.toUpperCase());  
+        System.out.println(phrase.toLowerCase());  
+
+        System.out.println("Is empty? " + phrase.isEmpty());  
+        System.out.println(wSpace.isBlank());  
+
+        System.out.println(phrase.substring(1,2));
+
+    }
+}
         String wSpace = "  ";
         System.out.print(Str);
         System.out.println(Str.toUpperCase());  
