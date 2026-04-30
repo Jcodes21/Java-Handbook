@@ -1,5 +1,5 @@
 //https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
-public class Strings {
+public class StringMethods {
     public static void main(String a[]){
         char blocks[]={'a','l','!'};
         String Str = new String(blocks);
