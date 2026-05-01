@@ -18,7 +18,7 @@ public class StringMethods {
         System.out.println(phrase.charAt(10) + 1); // Output is 111
        // System.out.println(phrase.indexOf());
        //  System.out.println(phrase.lastIndexOf());
-        // System.out.println(phrase.replace());
+        System.out.println(phrase.replace("Play", "Code"));
         System.out.println(Str);
         System.out.println(phrase.toCharArray());
         System.out.println(Str.toUpperCase());  
