@@ -3,13 +3,14 @@ Java is pass by value, that means a method gets a copy of what you pass in.
 
 For primitives, it gets a copy of the actual value.
 
+In the below example both age & ageCopy variable are held with two different stack frames.
+
 ### Example:
 int age = 21;  
 in agecopy = age;  
 System.out.println(age);  
 System.out.println(ageCopy);  
 
-In the above example both age & ageCopy variable are held with two different stack frames.
 
 
 
