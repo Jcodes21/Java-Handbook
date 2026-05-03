@@ -2,7 +2,7 @@
 Java is pass by value, that means a method gets a copy of what you pass in.
 
 
-## PRIMITIVES
+## Primitives
 For primitives, it gets a copy of the actual value.
 
 In the below example both age & ageCopy variables are held with two different stack frames.
