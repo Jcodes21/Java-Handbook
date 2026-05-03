@@ -1,0 +1,60 @@
+Primitives - Simple values,
+Reference types - Complex values
+
+Primitive variables - store the actual value
+Reference variables - store a reference to an object
+
+Primitive:
+age -> 25
+
+Reference:
+p -> memory location -> Point { x = 10, y = 20 }
+
+
+Data types
+├── Primitive types
+  ├── int│
+  ├── double│
+  ├── boolean│
+  ├── char│
+  ├── long│
+  ├── float│
+  ├── short│
+  └── byte│
+└── Reference types
+  ├── String
+  ├── Scanner
+  ├── ArrayList
+  ├── arrays
+  ├── your own classes, e.g. Account
+  └── other objects
+
+In Java, data types are split into primitive types and reference types. int, double, and boolean are primitive types. String, Scanner, arrays, and custom classes are reference types.
+A reference type is a data type that refers to an object in memory, rather than containing the object's data directly.
+Consider Point as an example of a reference type.
+Point = reference type / class
+p = variable name
+new Point(10, 20) = Point object created in memory
+That object lives at a memory address.
+p does not hold the full object directly — it holds a reference to that memory location.
+So p is like a label that knows where the Point object is.
+
+Memory stack
+Stack memory in Java is used for static memory allocation and the execution. of a thread. LIFO
+
+Frame
+A stack frame contains all the data for one function call.
+The stack frame only exists during the execution time of a function including any references.
+
+Heap
+Space is used to store objects and JRE classes at runtime
+New objects are always created in the heap space
+References to these objects are stored in STACK MEMORY
+
+
+
+int age = 21 - The value and the primitive are stored in the STACK
+
+For reference types; values and object's memory address are stored in a frame on the stack. The object being referenced from the stack live on the HEAP
+
+Strings are a bit different, they refer to the value within the string pool.
