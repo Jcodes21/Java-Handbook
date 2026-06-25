@@ -5,6 +5,10 @@ There are different types of classes, there are classes to model the real world,
 Creating a class
 When we create a class we can define it's properties and behaviours. Variables inside a class are usually called fields/attributes and describe the objects state / data / properties. method are the behaviours / actions an onject can do or things to calculate.
 
+Below is an example. The panda this class would genreally live inside it's own file.
+Setters and Getters are implemented.
+
+
 
 Class Panda {
   // attribute / property
@@ -32,7 +36,6 @@ public class Main {
     
     }
 
-// this class could live inside it's own file
   static Class Panda {
     // attribute / property
       private int name;
