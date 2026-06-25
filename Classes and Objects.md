@@ -6,8 +6,8 @@ Creating a class
 When we create a class we can define it's properties and behaviours. Variables inside a class are usually called fields/attributes and describe the objects state / data / properties. method are the behaviours / actions an onject can do or things to calculate.
 
 Below is an example. The panda this class would genreally live inside it's own file.
-Setters and Getters are implemented.
-
+Setters are used for giving a value for an object.
+and Getters are implemented.
 
 
 Class Panda {
@@ -48,4 +48,8 @@ public class Main {
   public void setName(String name){
       this.name = name;
       }
+
+  public void getName(String name){
+      this.name = name;
+  }
 }
